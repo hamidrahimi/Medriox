@@ -1,5 +1,26 @@
 # Medriox
 
-Medriox medical device company, designs, develops, sells unique solution and technically support equipment to treat and heal Bladder cancer in a way to improve outcomes and cover its performance worldwide to increase the chance of life.
+Production static site for [medriox.com](https://medriox.com).
 
-MedRiox is to enable people all around the world to have easily and safely access to the reliable treatment
+## Commands
+
+```bash
+npm install
+npm run dev      # local development
+npm run build    # static export → out/
+npm run preview  # serve production build locally
+```
+
+## Deploy
+
+Upload the `out/` folder to any static host (Cloudflare Pages, Netlify, S3, etc.).
+
+## Assets
+
+| File | Purpose |
+|------|---------|
+| `public/img/logo-medriox-white.svg` | Logo |
+| `public/img/fig-intro-desktop.png` | Desktop illustration |
+| `public/img/fig-intro-mobile.png` | Mobile illustration |
+| `public/img/bg-patern.svg` | Background wireframe |
+| `public/img/icon-email.svg` | Email icon |
