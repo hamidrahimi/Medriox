@@ -4,7 +4,7 @@ import "./globals.css";
 
 const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["400", "700"],
   display: "swap",
   preload: true,
   adjustFontFallback: true,
@@ -20,7 +20,11 @@ export const metadata: Metadata = {
   description,
   authors: [{ name: "HamidReza Rahimi" }],
   icons: {
-    icon: "/img/favicon/favicon.svg",
+    icon: [
+      { url: "/img/favicon/favicon.svg", type: "image/svg+xml" },
+      { url: "/img/favicon/favicon.png", sizes: "500x500", type: "image/png" },
+    ],
+    apple: "/img/favicon/favicon.png",
   },
   manifest: "/img/favicon/manifest.json",
   openGraph: {
