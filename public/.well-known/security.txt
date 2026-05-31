@@ -1,0 +1,4 @@
+Contact: mailto:contact@medriox.com
+Expires: 2027-05-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://medriox.com/.well-known/security.txt
